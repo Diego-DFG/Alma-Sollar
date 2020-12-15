@@ -1,0 +1,29 @@
+body { padding: 0; margin: 0; overflow-x: hidden; }
+.wrapper { height: 4000px; overflow: hidden; display: grid; 
+			grid-template-areas: 'nav' 'main' 'section' 'footer'; 
+			grid-template-rows: 2% 14% 77% 10%; }
+
+
+.navegacao { grid-area: nav; display: flex; font-family: 'Roboto', sans-serif; }
+	.logo { margin-left: 2em; position: relative; top: 20px; }
+	.logo a { color: #ffba93; }	
+	.logo img { position: relative; bottom: 40px; }
+	.navegacao-lista { display: flex; margin-left: 20em; position: relative; top: 1em;}
+	.navegacao-lista li { margin-right: 5em; list-style: none; }
+	.navegacao-lista li a { text-decoration: none; color: #ffba93; }
+	.navegacao-lista li a:hover { color: #ff8e71; }
+
+
+.destaque { grid-area: main; background: url('../img/alma_11.jpeg')no-repeat bottom/cover; }
+	.destaque svg { position: relative; top: 310px; }
+
+.conteudo { grid-area: section; }
+	.btn-loja { position: relative; left: 600px; top: 50px; border: none; border-radius: 30px;
+				background: tomato; color: #fff; padding: 1em; font-weight: bold; 
+				font-family: 'Lobster', cursive; font-size: 1.3em; }
+	.btn-loja:hover { text-decoration: none; color: tomato; background: #fff; 
+				border: 1px solid tomato; }
+	.conteudo-titulo { z-index: 10; position: relative; top: 50px; left: 290px; color: tomato;
+				font-family: 'Lobster', cursive; font-size: 3em; }
+
+.rodape { grid-area: footer; background: black; }
