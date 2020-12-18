@@ -16,6 +16,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 .destaque { grid-area: main; background: url('../img/alma_11.jpeg')no-repeat bottom/cover; }
 	.destaque svg { position: relative; top: 310px; }
+	.whatsapp { color: green; height: 50px; position: fixed; left: 90%; top: 85%; z-index: 10 }
 
 .conteudo { grid-area: section; }
 	.conteudo-produtos { height: 19.25%; }
@@ -47,7 +48,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 				width: 600px; border: 1px solid #fff; border-radius: 5px; line-height: 1.4em;
 				height: 300px;}
 	.sobre-img-2 p { font-size: 1em; width: 80%; position: relative; left: 50px; top: 10px; }
-		.nivia { border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
+		.nivia { border-top-right-radius: 5px; border-bottom-right-radius: 5px; }
 
 
 
