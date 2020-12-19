@@ -51,5 +51,16 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 		.nivia { border-top-right-radius: 5px; border-bottom-right-radius: 5px; }
 
 
+.conteudo-cta { height: 19.25%; text-align: center; position: relative; top: 100px; left: 400px;}
+	.container-cta { height: 600px; width: 500px; }
+	.img-cta { background: linear-gradient(rgba(0,0,0,0.5), 
+			rgba(0,0,0,0.5)),url('../img/red/alma_10.jpg')no-repeat center/cover; height: 300px;
+				border-radius: 10px; }
+	.img-cta img { z-index: 1; }
+	.detalhes-cta { position: relative; width: 500px; height: 350px; border-radius: 10px;
+			bottom: 270px; transition: 0.5s; border: 1px solid #999; }
+	.texto-cta { visibility: hidden; opacity: 0; }
+	.text-cta:hover { visibility: visible; opacity: 1; }
+	.detalhes-cta:hover { height: 500px; }
 
 .rodape { grid-area: footer; background: black; }
