@@ -51,16 +51,19 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 		.nivia { border-top-right-radius: 5px; border-bottom-right-radius: 5px; }
 
 
-.conteudo-cta { height: 19.25%; text-align: center; position: relative; top: 100px; left: 400px;}
-	.container-cta { height: 600px; width: 500px; }
-	.img-cta { background: linear-gradient(rgba(0,0,0,0.5), 
-			rgba(0,0,0,0.5)),url('../img/red/alma_10.jpg')no-repeat center/cover; height: 300px;
-				border-radius: 10px; }
-	.img-cta img { z-index: 1; }
-	.detalhes-cta { position: relative; width: 500px; height: 350px; border-radius: 10px;
-			bottom: 270px; transition: 0.5s; border: 1px solid #999; }
-	.texto-cta { visibility: hidden; opacity: 0; }
-	.text-cta:hover { visibility: visible; opacity: 1; }
-	.detalhes-cta:hover { height: 500px; }
+.conteudo-cta { display: flex; }
+	.container-cta { position: relative; width: 300px; display: flex; justify-content: center; 
+				align-items: center; flex-wrap: wrap; padding: 10px; }
+		
+	.card { position: relative; max-width: 300px; height: 280px; background: #999; margin: 10px 5px;
+				padding: 15px 10px;  display: flex; flex-direction: column;
+				box-shadow: 0 5px 20px rgba(0,0,0,0.5); transition: 0.3s ease-in-out; }
+	.card:hover { height: 600px; }
+	.img-cta { position: relative; width: 200px; height: 260px; top: -60px; left: 20px; z-index: 1;
+				box-shadow: 0 5px 20px rgba(0,0,0,0.2);  }
+	.img-cta img { max-width: 100%; border-radius: 10px; }
+	.texto-cta { position: relative; margin-top: -140px; padding: 10px 15px; text-align: center;
+				color: #111; visibility: hidden; opacity: 0; transition: 0.3s ease-in-out; }
+	.card:hover .texto-cta  { visibility: visible; opacity: 1; margin-top: -10px; }
 
 .rodape { grid-area: footer; background: black; }
