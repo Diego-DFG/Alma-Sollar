@@ -72,7 +72,9 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 					background: tomato; color: #fff; padding: 1em; font-weight: bold; 
 					font-family: 'Lobster', cursive; font-size: 2em; }
 
-.depoimentos { height: 16.7%; background: #ffba93;  }					
+.depoimentos { height: 16.7%; background: #ffba93; display: flex; }
+	.card_depoimento { margin-right: 2em; position: relative; left: 350px;  }
+	.card_depoimento img { height: 550px; }					
 
 .rodape { grid-area: footer; background: linear-gradient(rgba(0,0,0,0.5), 
 			rgba(0,0,0,0.5)),url('../img/rodape_00.jpg')no-repeat center/cover; }
