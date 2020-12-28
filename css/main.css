@@ -74,8 +74,14 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 .depoimentos { height: 19%; background: linear-gradient(rgba(0,0,0,0.5), 
 			rgba(0,0,0,0.5)),url('../img/rodape_00.jpg')no-repeat bottom/cover; color: #fff; }
-	.depoimentos img { border-radius: 30px; position: relative; left: 500px; top: 200px; }
-	.depoimentos p { font-size: 1.5em; }
-	.aspas { font-size: 2em; }
+	.depoimentos-titulo { z-index: 10; position: relative; top: 80px; left: 550px; color: #fff;
+								font-family: 'Lobster', cursive; font-size: 3em; }
+	.card_depoimento { display: flex; position: relative; top: 200px; left: 100px; }
+	.card_depoimento img { margin-right: 7em; border-radius: 30px; }
+	.card_depoimento img:hover {  }
 
-.rodape { grid-area: footer;  }
+.rodape { grid-area: footer; }
+	.rodape img { position: relative; left: 600px; top: 100px; }
+	.copyright { position: relative; left: 400px; top: 200px; }
+	.social-media { position: relative; left: 90.8%; bottom: 100px; }
+	.instagram { color: tomato; }
