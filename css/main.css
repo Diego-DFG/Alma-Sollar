@@ -1,5 +1,5 @@
 body { padding: 0; margin: 0; overflow-x: hidden; }
-.wrapper { height: 5000px; overflow: hidden; display: grid; 
+.wrapper { height: 5500px; overflow: hidden; display: grid; 
 			grid-template-areas: 'nav' 'main' 'section' 'footer'; 
 			grid-template-rows: 2% 14% 77% 10%; }
 
@@ -15,7 +15,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 
 .destaque { grid-area: main; background: url('../img/alma_11.jpeg')no-repeat bottom/cover; }
-	.destaque svg { position: relative; top: 400px; }
+	.destaque svg { position: relative; top: 500px; }
 	.whatsapp { color: green; height: 50px; position: fixed; left: 90%; top: 85%; z-index: 10 }
 
 .conteudo { grid-area: section; }
@@ -71,6 +71,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 	.btn-cta { position: relative; left: 600px; top: 300px; border: none; border-radius: 30px;
 					background: tomato; color: #fff; padding: 1em; font-weight: bold; 
 					font-family: 'Lobster', cursive; font-size: 2em; }
+	.btn-cta:hover { color: #fff; }
 
 .depoimentos { height: 19%; background: linear-gradient(rgba(0,0,0,0.5), 
 			rgba(0,0,0,0.5)),url('../img/rodape_00.jpg')no-repeat bottom/cover; color: #fff; }
@@ -82,15 +83,16 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 .rodape { grid-area: footer; font-family: 'Roboto', sans-serif; background: #654062; 
 			border-top: 3px solid #fff; }
-	.rodape-lista { position: relative; top: 150px; list-style: none; color: #222; }
+	.rodape-lista { position: relative; top: 50px; list-style: none; color: #fff; }
 	.rodape-lista li { margin-bottom: 1em; }
-	.rodape-lista li a { color: #fff; }
+	.rodape-lista li a, .sedex, .endereco, .ads { color: #fff; }
 	.rodape-lista li:nth-child(3) { padding-top: 1em; }
 	.rodape-lista li:nth-child(4) {   }
-	.primeiro-item { font-size: 1.2em; font-weight: 800; }
-	.active { }
+	.primeiro-item, .contato { font-size: 1.2em; font-weight: 800; color: #fff; text-decoration: none; }
 	.envelope, .phone, .email { color: tomato; margin-left: 1em; }
-	.rodape img { position: relative; left: 600px; bottom: 150px; border-radius: 50%; }
-	.copyright { position: relative; left: 400px; top: 30px;}
-	.social-media { position: relative; left: 90.8%; bottom: 250px; }
+	.rodape img { position: relative; left: 600px; bottom: 200px; border-radius: 50%; }
+	.copyright { position: relative; left: 410px; bottom: 50px; color: #fff; }
+	.social-media { position: relative; left: 89.5%; bottom: 450px; }
 	.instagram { color: #fff; }
+	.ads { position: relative; top: 50px; }
+	.ads:hover { text-decoration: underline; }
