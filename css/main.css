@@ -80,16 +80,17 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 	.card_depoimento img { margin-right: 7em; border-radius: 30px; }
 	.card_depoimento img:hover {  }
 
-.rodape { grid-area: footer; font-family: 'Roboto', sans-serif; }
+.rodape { grid-area: footer; font-family: 'Roboto', sans-serif; background: #654062; 
+			border-top: 3px solid #fff; }
 	.rodape-lista { position: relative; top: 150px; list-style: none; color: #222; }
 	.rodape-lista li { margin-bottom: 1em; }
-	.rodape-lista li a { color: tomato; }
-	.rodape-lista li:nth-child(3) { padding-top: 1em; border-top: 1px solid tomato; }
+	.rodape-lista li a { color: #fff; }
+	.rodape-lista li:nth-child(3) { padding-top: 1em; }
 	.rodape-lista li:nth-child(4) {   }
 	.primeiro-item { font-size: 1.2em; font-weight: 800; }
 	.active { }
 	.envelope, .phone, .email { color: tomato; margin-left: 1em; }
-	.rodape img { position: relative; left: 600px; bottom: 50px; }
+	.rodape img { position: relative; left: 600px; bottom: 150px; border-radius: 50%; }
 	.copyright { position: relative; left: 400px; top: 30px;}
 	.social-media { position: relative; left: 90.8%; bottom: 250px; }
-	.instagram { color: tomato; }
+	.instagram { color: #fff; }
