@@ -105,9 +105,33 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 	@media (max-width: 500px) {
 
+	/*----------- estilos gerais ------------------------------------------------*/
+
+	.wrapper { height: 5000px; }
+
+
+	/*------------ Menu de Navegação --------------------------------------------*/
+
 		.logo img { width: 50px; position: relative; top: 1px; right: 30px; }
 		.navegacao-lista { position: relative; right: 270px; font-size: 0.7em; }
 		.navegacao-lista li { margin-right: 1.5em; }
 		.navegacao-lista li:nth-child(4) { position: relative; right: 200px; top: 50px; }
 		.navegacao-lista li:nth-child(5) { position: relative; right: 150px; top: 50px; }
+
+	
+
+	/*------------ Destaque -----------------------------------------------------*/
+
+		.destaque { background: url('../img/red/red_alma_11.jpg')no-repeat; }
+		.destaque svg {  }
+
+
+
+	/*------------ Conteúdo -----------------------------------------------------*/
+
+		.conteudo-titulo { position: relative; bottom: 500px; }
 	}
+
+
+	
+
