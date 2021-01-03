@@ -96,3 +96,18 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 	.instagram { color: #fff; }
 	.ads { position: relative; top: 50px; }
 	.ads:hover { text-decoration: underline; }
+
+
+
+	/*--------------------------------  MEDIA QUERIE ----------------------------------*/
+
+
+
+	@media (max-width: 500px) {
+
+		.logo img { width: 50px; position: relative; top: 1px; right: 30px; }
+		.navegacao-lista { position: relative; right: 270px; font-size: 0.7em; }
+		.navegacao-lista li { margin-right: 1.5em; }
+		.navegacao-lista li:nth-child(4) { position: relative; right: 200px; top: 50px; }
+		.navegacao-lista li:nth-child(5) { position: relative; right: 150px; top: 50px; }
+	}
