@@ -15,7 +15,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 
 .destaque { grid-area: main; background: url('../img/alma_11.jpeg')no-repeat bottom/cover; }
-	.destaque svg { position: relative; top: 500px; }
+	.svg { position: relative; top: 630px; }
 	.whatsapp { color: green; height: 50px; position: fixed; left: 90%; top: 85%; z-index: 10 }
 
 .conteudo { grid-area: section; }
@@ -107,7 +107,9 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 	/*----------- estilos gerais ------------------------------------------------*/
 
-	.wrapper { height: 5000px; }
+	.wrapper { height: 5500px; overflow: hidden; display: grid; 
+			grid-template-areas: 'nav' 'main' 'section' 'footer'; 
+			grid-template-rows: 2% 7% 77% 10%; }
 
 
 	/*------------ Menu de Navegação --------------------------------------------*/
@@ -123,13 +125,14 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 	/*------------ Destaque -----------------------------------------------------*/
 
 		.destaque { background: url('../img/red/red_alma_11.jpg')no-repeat; }
-		.destaque svg {  }
+		.svg { top: 230px; height: 120px; }
 
 
 
 	/*------------ Conteúdo -----------------------------------------------------*/
 
-		.conteudo-titulo { position: relative; bottom: 500px; }
+		.conteudo h1 { left: 20px; font-size: 1.9em; width: 300px; text-align: center;
+						bottom: 100px; }
 	}
 
 
