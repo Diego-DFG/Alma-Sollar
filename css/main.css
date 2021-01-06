@@ -131,10 +131,15 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 	/*------------ Conteúdo -----------------------------------------------------*/
 
-		.conteudo h1 { left: 20px; font-size: 1.9em; width: 300px; text-align: center;
+		.conteudo h1 { left: 50px; font-size: 1.9em; width: 300px; text-align: center;
 						bottom: 100px; }
-		.conteudo-produtos { height: 25%; }
-		.carousel-img { display: block; }
+			.conteudo-produtos { height: 35%; position: relative; right: 80px; }
+			.carousel-img { display: block; text-align: center; }
+			.carousel-img:nth-child(2) { position: relative; bottom: 100px; }
+			.carousel-img:nth-child(3) { position: relative; bottom: 200px; }
+			.carousel-img:nth-child(4) { position: relative; bottom: 300px; }
+			.angle-left { position: relative; left: 50px; }
+			.angle-right { position: relative; }
 	}
 
 
