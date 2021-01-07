@@ -103,7 +103,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 
 
-	@media (max-width: 500px) {
+	@media (max-width: 1100px) {
 
 	/*----------- estilos gerais ------------------------------------------------*/
 
@@ -133,13 +133,16 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 		.conteudo h1 { left: 50px; font-size: 1.9em; width: 300px; text-align: center;
 						bottom: 100px; }
-			.conteudo-produtos { height: 35%; position: relative; right: 80px; }
+			.conteudo-produtos { height: 35%; position: relative; right: 80px; 
+									width: 480px; }
 			.carousel-img { display: block; text-align: center; }
 			.carousel-img:nth-child(2) { position: relative; bottom: 100px; }
 			.carousel-img:nth-child(3) { position: relative; bottom: 200px; }
 			.carousel-img:nth-child(4) { position: relative; bottom: 300px; }
-			.angle-left { position: relative; left: 50px; }
-			.angle-right { position: relative; }
+			.angle-left { position: relative; left: 110px; }
+			.angle-right { position: relative; top: 100px;}
+
+		.conteudo-sobre {  }
 	}
 
 
