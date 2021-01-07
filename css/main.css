@@ -107,7 +107,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 	/*----------- estilos gerais ------------------------------------------------*/
 
-	.wrapper { height: 6500px; overflow: hidden; display: grid; 
+	.wrapper { height: 8000px; overflow: hidden; display: grid; 
 			grid-template-areas: 'nav' 'main' 'section' 'footer'; 
 			grid-template-rows: 2% 7% 77% 10%; }
 
@@ -133,7 +133,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 		.conteudo h1 { left: 50px; font-size: 1.9em; width: 300px; text-align: center;
 						bottom: 100px; }
-			.conteudo-produtos { height: 35%; position: relative; right: 80px; 
+			.conteudo-produtos { height: 30%; position: relative; right: 80px; 
 									width: 480px; }
 			.carousel-img { display: block; text-align: center; }
 			.carousel-img:nth-child(2) { position: relative; bottom: 100px; }
@@ -142,7 +142,15 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 			.angle-left { position: relative; left: 110px; }
 			.angle-right { position: relative; top: 100px;}
 
-		.conteudo-sobre {  }
+
+		.conteudo-sobre { height: 20%; }	
+			.sobre-titulo { position: relative; left: 50px; }
+			.sobre-img-1,.sobre-img-2 { display: block; width: 192px;}
+			.sobre-img-1 img, .sobre-img-2 img { width: 190px; border-radius: 5px; }
+			.sobre-paragrafo { border: 1px solid #fff; border-radius: 5px; width: 192px; }
+			.sobre-img-1 p, .sobre-img-2 p { position: relative; left: 15px; 
+								text-align: center; }
+			.sobre-img-2 p { border: none; }
 	}
 
 
