@@ -54,9 +54,9 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 	.cta-titulo { position: relative; left: 400px; top: 100px; font-size: 3em; color: tomato;
 				font-family: 'Lobster', cursive; }
-	.container-cta-01, .container-cta-02, .container-cta-03, .container-cta-04 { display: flex; 
-		position: relative; top: 200px; }
-	.img-cta { z-index: 10; }
+	.container-cta-01, .container-cta-02, .container-cta-03, .container-cta-04 { 
+				display: flex; position: relative; top: 200px; }
+	.img-cta, .img-cta-02, .img-cta-03, .img-cta-04 { z-index: 10; }
 	.container-cta-01 img, .container-cta-02 img, .container-cta-03 img, .container-cta-04 img 
 				{ border-radius: 10px; }
 	.container-cta-01, .container-cta-02, .container-cta-03, .container-cta-04 { position: relative;  
@@ -66,7 +66,8 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 					width: 700px; color: tomato; text-align: center; padding: 0 4em; }
 	.texto-cta-01, .texto-cta-03 { position: relative; right: 50px; }
 	.texto-cta-02, .texto-cta-04 { position: relative; left: 50px; }
-	.cta-paragrafo { font-size: 1.5em; position: relative; top: 3em; left: 30px; 
+	.cta-paragrafo, .cta-paragrafo-02, .cta-paragrafo-03, .cta-paragrafo-04 { 
+				font-size: 1.5em; position: relative; top: 3em; left: 30px; 
 				font-family: 'Roboto', sans-serif; font-weight: bold; }
 	.btn-cta { position: relative; left: 600px; top: 300px; border: none; border-radius: 30px;
 					background: tomato; color: #fff; padding: 1em; font-weight: bold; 
@@ -107,7 +108,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 	/*----------- estilos gerais ------------------------------------------------*/
 
-	.wrapper { height: 8000px; overflow: hidden; display: grid; 
+	.wrapper { height: 9000px; overflow: hidden; display: grid; 
 			grid-template-areas: 'nav' 'main' 'section' 'footer'; 
 			grid-template-rows: 2% 7% 77% 10%; }
 
@@ -155,6 +156,26 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 								text-align: center; }
 			.sobre-img-2 p { border: none; }
 			.nivia { position: relative; bottom: 679px; }
+
+
+		.conteudo-cta { height: 30%; }
+			.cta-titulo { position: relative; left: 20px; font-size: 1.8em; }
+			.img-cta img { height: 150px; position: relative; left: 20px; }
+			.texto-cta-01 { position: relative; right: 300px; height: 100px; top: 150px;
+						width: 400px; }
+			.cta-paragrafo { position: relative; top: 10px; left: 20px; }
+			.img-cta-02 img { height: 150px; position: relative; right: 380px; top: 100px; }
+			.texto-cta-02 { position: relative; right: 300px; height: 100px; top: 250px;
+						width: 400px; }
+			.cta-paragrafo-02 { position: relative; top: 10px; left: 20px; }
+			.img-cta-03 img { height: 150px; position: relative; left: 20px; top: 300px; }
+			.texto-cta-03 { position: relative; right: 300px; height: 100px; top: 250px;
+						width: 400px; }
+			.cta-paragrafo-03 { position: relative; top: 10px; left: 20px; }
+			.img-cta-04 img { height: 150px; position: relative; left: 20px; top: 600px; }
+			.texto-cta-04 { position: relative; right: 300px; height: 100px; top: 250px;
+						width: 400px; }
+			.cta-paragrafo-04 { position: relative; top: 10px; left: 20px; }
 	}
 
 
