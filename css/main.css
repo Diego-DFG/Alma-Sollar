@@ -145,12 +145,16 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 		.conteudo-sobre { height: 20%; }	
 			.sobre-titulo { position: relative; left: 50px; }
-			.sobre-img-1,.sobre-img-2 { display: block; width: 192px;}
-			.sobre-img-1 img, .sobre-img-2 img { width: 190px; border-radius: 5px; }
-			.sobre-paragrafo { border: 1px solid #fff; border-radius: 5px; width: 192px; }
+			.sobre-img-wrapper { position: relative; right: 35px; }
+			.sobre-img-1,.sobre-img-2 { display: block; width: 162px;}
+			.sobre-img-1 img, .sobre-img-2 img { width: 160px; border-radius: 5px; }
+			.sobre-paragrafo-01, .sobre-paragrafo-02 { border: 1px solid #fff; 
+				border-radius: 5px; width: 162px; }
+			.sobre-paragrafo-02 { position: relative; top: 300px; padding-bottom: 35px; }
 			.sobre-img-1 p, .sobre-img-2 p { position: relative; left: 15px; 
 								text-align: center; }
 			.sobre-img-2 p { border: none; }
+			.nivia { position: relative; bottom: 679px; }
 	}
 
 
