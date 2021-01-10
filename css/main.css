@@ -108,9 +108,9 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 	/*----------- estilos gerais ------------------------------------------------*/
 
-	.wrapper { height: 9000px; overflow: hidden; display: grid; 
+	.wrapper { height: 7500px; overflow: hidden; display: grid; 
 			grid-template-areas: 'nav' 'main' 'section' 'footer'; 
-			grid-template-rows: 2% 7% 77% 10%; }
+			grid-template-rows: 2% 7% 81% 10%; }
 
 
 	/*------------ Menu de Navegação --------------------------------------------*/
@@ -158,7 +158,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 			.nivia { position: relative; bottom: 679px; }
 
 
-		.conteudo-cta { height: 30%; }
+		.conteudo-cta { height: 27%; }
 			.cta-titulo { position: relative; left: 20px; font-size: 1.8em; }
 			.img-cta img { height: 150px; position: relative; left: 20px; }
 			.texto-cta-01 { position: relative; right: 300px; height: 100px; top: 150px;
@@ -176,11 +176,19 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 						width: 400px; }
 			.cta-paragrafo-03 { position: relative; top: 20px; left: 10px; }
 
-			.img-cta-04 img { height: 150px; position: relative; left: 20px; top: 600px; }
-			.texto-cta-04 { position: relative; right: 300px; height: 100px; top: 250px;
+			.img-cta-04 img { height: 150px; position: relative; right: 290px; top: 300px; }
+			.texto-cta-04 { position: relative; left: 10px; height: 100px; top: 450px;
 						width: 400px; }
-			.cta-paragrafo-04 { position: relative; top: 10px; left: 20px; }
-	}
+			.cta-paragrafo-04 { position: relative; top: 10px; left: 10px; }
+			.container-cta-04 { position: relative; left: 10px; }
+			.btn-cta { position: relative; top: 700px; left: 130px; }
+
+		.depoimentos { height: 23%; }
+			.depoimentos h2 { position: relative; left: 130px; }
+			.depoimento_card_02 { position: relative; top: 400px; right: 400px; }
+			.depoimento_card_03 { position: relative; right: 790px; top: 800px; }
+
+}
 
 
 	
