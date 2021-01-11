@@ -118,8 +118,11 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 		.logo img { width: 50px; position: relative; top: 1px; right: 30px; }
 		.navegacao-lista { position: relative; right: 270px; font-size: 0.7em; }
 		.navegacao-lista li { margin-right: 1.5em; }
-		.navegacao-lista li:nth-child(4) { position: relative; right: 200px; top: 50px; }
-		.navegacao-lista li:nth-child(5) { position: relative; right: 150px; top: 50px; }
+		.navegacao-lista li:nth-child(1) { position: relative; left: 30px; }
+		.navegacao-lista li:nth-child(2) { position: relative; left: 40px; }
+		.navegacao-lista li:nth-child(3) { position: relative; left: 50px; }
+		.navegacao-lista li:nth-child(4) { position: relative; right: 130px; top: 50px; }
+		.navegacao-lista li:nth-child(5) { position: relative; right: 110px; top: 50px; }
 
 	
 
@@ -132,17 +135,19 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 	/*------------ Conteúdo -----------------------------------------------------*/
 
-		.conteudo h1 { left: 50px; font-size: 1.9em; width: 300px; text-align: center;
+		.conteudo h1 { left: 10px; font-size: 1.9em; width: 300px; text-align: center;
 						bottom: 100px; }
-			.conteudo-produtos { height: 30%; position: relative; right: 80px; 
+			.conteudo-produtos { height: 30%; position: relative; right: 200px; 
 									width: 480px; }
+			.carousel-item { position: relative; }
 			.carousel-img { display: block; text-align: center; }
-			.carousel-img:nth-child(2) { position: relative; bottom: 100px; }
-			.carousel-img:nth-child(3) { position: relative; bottom: 200px; }
-			.carousel-img:nth-child(4) { position: relative; bottom: 300px; }
-			.angle-left { position: relative; left: 110px; }
-			.angle-right { position: relative; top: 100px; }
-			.btn-loja { position: relative; left: 240px; top: 10px; }
+			.carousel-img:nth-child(1) { position: relative; bottom: 10px; left: 150px; }
+			.carousel-img:nth-child(2) { position: relative; bottom: 100px; left: 150px; }
+			.carousel-img:nth-child(3) { position: relative; bottom: 200px; left: 150px; }
+			.carousel-img:nth-child(4) { position: relative; bottom: 300px; left: 150px; }
+			.angle-left { position: relative; left: 200px; }
+			.angle-right { position: relative; top: 100px; left: 50px; }
+			.btn-loja { position: relative; left: 280px; top: 10px; }
 			.container-btn-loja { position: relative; bottom: 150px; }
 
 
