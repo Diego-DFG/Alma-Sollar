@@ -135,8 +135,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 	/*------------ Conteúdo -----------------------------------------------------*/
 
-		.conteudo h1 { left: 10px; font-size: 1.9em; width: 300px; text-align: center;
-						bottom: 100px; }
+		.conteudo h1 { position: relative; top: 100px; left: 10px; font-size: 1.9em; width: 300px; text-align: center; }
 			.conteudo-produtos { height: 30%; position: relative; right: 200px; 
 									width: 480px; }
 			.carousel-item { position: relative; }
