@@ -104,7 +104,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 
 
-	@media (max-width: 600px) {
+	@media (max-width: 1000px) {
 
 	/*----------- estilos gerais ------------------------------------------------*/
 
@@ -194,17 +194,17 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 			.btn-cta { position: relative; top: 700px; left: 130px; }
 
 		.depoimentos { height: 23%; }
-			.depoimentos h2 { position: relative; left: 70px; }
-			.depoimento_card_01 { position: relative; right: 80px; }
-			.depoimento_card_02 { position: relative; top: 400px; right: 480px; }
-			.depoimento_card_03 { position: relative; right: 875px; top: 800px; }
+			.depoimentos h2 { position: relative; left: 1em; }
+			.depoimento_card_01 { position: relative; right: 5.9em; }
+			.depoimento_card_02 { position: relative; top: 25em; right: 30.5em; }
+			.depoimento_card_03 { position: relative; right: 55.5em; top: 800px; }
 
 /*--------------------- Rodapé --------------------------------------------*/
-
-			.rodape img { position: relative; top: 150px; left: 60px; }
-			.copyright { position: relative; top: 350px; z-index: 11; left: 0px;
-						font-size: 0.7em; }
-			.social-media { position: relative; left: 30px; top: 190px; }
+			.rodape { position: relative; right: 2em; }
+			.rodape img { position: relative; top: 150px; left: 3em; }
+			.copyright { display: block; position: relative; z-index: 11; left: 1em;
+						font-size: 0.7em; top: 15em; left: 9em; }
+			.social-media { position: relative; left: 3em; top: 190px; }
 }
 
 
