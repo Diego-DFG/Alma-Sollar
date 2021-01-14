@@ -108,9 +108,9 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 	/*----------- estilos gerais ------------------------------------------------*/
 
-	.wrapper { height: 8000px; overflow: hidden; display: grid; 
+	.wrapper { height: 7800px; overflow: hidden; display: grid; 
 			grid-template-areas: 'nav' 'main' 'section' 'footer'; 
-			grid-template-rows: 2% 7% 81% 10%; }
+			grid-template-rows: 2% 5% 83% 10%; }
 
 
 	/*------------ Menu de Navegação --------------------------------------------*/
@@ -118,11 +118,11 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 		.logo img { width: 50px; position: relative; top: 1px; right: 30px; }
 		.navegacao-lista { position: relative; right: 270px; font-size: 0.7em; }
 		.navegacao-lista li { margin-right: 1.5em; }
-		.navegacao-lista li:nth-child(1) { position: relative; left: 30px; }
-		.navegacao-lista li:nth-child(2) { position: relative; left: 40px; }
-		.navegacao-lista li:nth-child(3) { position: relative; left: 50px; }
-		.navegacao-lista li:nth-child(4) { position: relative; right: 130px; top: 50px; }
-		.navegacao-lista li:nth-child(5) { position: relative; right: 110px; top: 50px; }
+		.navegacao-lista li:nth-child(1) { position: relative; left: 1em; }
+		.navegacao-lista li:nth-child(2) { position: relative; left: 2em; }
+		.navegacao-lista li:nth-child(3) { position: relative; left: 2em; }
+		.navegacao-lista li:nth-child(4) { position: relative; right: 12em; top: 4em; }
+		.navegacao-lista li:nth-child(5) { position: relative; right: 12em; top: 4em; }
 
 	
 
@@ -130,13 +130,14 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 		.destaque { background: url('../img/red/red_alma_11.jpg')no-repeat; }
 		.svg { top: 230px; height: 120px; }
+		.whatsapp { left: 80%; }
 
 
 
 	/*------------ Conteúdo -----------------------------------------------------*/
 
 		.conteudo h1 { position: relative; top: 100px; left: 10px; font-size: 1.9em; width: 300px; text-align: center; }
-			.conteudo-produtos { height: 30%; position: relative; right: 200px; 
+			.conteudo-produtos { height: 28%; position: relative; right: 200px; 
 									width: 480px; }
 			.carousel-item { position: relative; }
 			.carousel-img { display: block; text-align: center; }
@@ -150,20 +151,20 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 			.container-btn-loja { position: relative; bottom: 150px; }
 
 
-		.conteudo-sobre { height: 20%; }	
+		.conteudo-sobre { height: 22%; }	
 			.sobre-titulo { position: relative; left: 50px; }
 			.sobre-img-wrapper { position: relative; right: 35px; }
-			.sobre-img-1,.sobre-img-2 { display: block; width: 162px; }
+			.sobre-img-1,.sobre-img-2 { display: block; width: 8em; }
 			.sobre-img-1 { left: 40px; }
 			.sobre-img-2 { position: relative; left: 50px; }
-			.sobre-img-1 img, .sobre-img-2 img { width: 160px; border-radius: 5px; }
+			.sobre-img-1 img, .sobre-img-2 img { width: 7.9em; border-radius: 5px; }
 			.sobre-paragrafo-01, .sobre-paragrafo-02 { border: 1px solid #fff; 
-				border-radius: 5px; width: 162px; }
+				border-radius: 5px; width: 8em; }
 			.sobre-paragrafo-02 { position: relative; top: 300px; padding-bottom: 35px; }
 			.sobre-img-1 p, .sobre-img-2 p { position: relative; left: 15px; 
 								text-align: center; }
 			.sobre-img-2 p { border: none; }
-			.nivia { position: relative; bottom: 679px; }
+			.nivia { position: relative; bottom: 53.4em; }
 
 
 		.conteudo-cta { height: 27%; position: relative; right: 50px; }
