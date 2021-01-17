@@ -107,127 +107,171 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 	@media (max-width: 1000px) {
 
 	/*----------- estilos gerais ------------------------------------------------*/
-
 	.wrapper { 
 		height: 7800px; overflow: hidden; display: grid; 
 			grid-template-areas: 'nav' 'main' 'section' 'footer'; 
 				grid-template-rows: 2% 5% 83% 10%; }
+	/*------------ Fim estilos gerais --------------------------------------------*/
 
 
-	/*------------ Menu de Navegação --------------------------------------------*/
-
-		
+	/*------------ Menu navegação ---------------------------------------*/
 		.navegacao-lista li:nth-child(4), 
-		.navegacao-lista li:nth-child(5) { 
-			position: relative; right: 12em; 
+		.navegacao-lista li:nth-child(5) { position: relative; right: 12em; 
 				top: 4em; }
 
 		.navegacao-lista li:nth-child(2), 
-		.navegacao-lista li:nth-child(3) { 
-			position: relative; 
+		.navegacao-lista li:nth-child(3) { position: relative; 
 				left: 2em; }
 
-		.navegacao-lista li:nth-child(1) { 
-			position: relative; 
+		.navegacao-lista li:nth-child(1) { position: relative; 
 				left: 1em; }
 
-		.navegacao-lista { position: relative; 
-			right: 270px; font-size: 0.7em; }
+		.navegacao-lista { position: relative; right: 270px; 
+				font-size: 0.7em; }
 
-		.navegacao-lista li { 
-			margin-right: 1.5em; }
+		.navegacao-lista li { margin-right: 1.5em; }
 
-		.logo img { width: 50px; 
-			position: relative; 
+		.logo img { width: 50px; position: relative; 
 				top: 1px; right: 30px; }
+	/*------------ Fim menu navegação ------------------------------------*/
+
 
 	/*------------ Destaque -----------------------------------------------------*/
-
 		.destaque { 
 			background: url('../img/red/red_alma_11.jpg')no-repeat; }
-
 		.svg { 
 			top: 230px; height: 120px; }
-		
 		.whatsapp { 
 			left: 80%; }
-
+	/*------------ Fim destaque ----------------------------------------/*
 
 
 	/*------------ Conteúdo -----------------------------------------------------*/
-
 		.conteudo h1 { 
 			position: relative; top: 100px; left: 10px; font-size: 1.9em; 
 				width: 300px; text-align: center; }
+			
+			.carousel-img:nth-child(1) { 
+				position: relative; bottom: 10px; left: 150px; }
+
+			.carousel-img:nth-child(2) { 
+				position: relative; bottom: 100px; left: 150px; }
+
+			.carousel-img:nth-child(3) { 
+				position: relative; bottom: 200px; left: 150px; }
+
+			.carousel-img:nth-child(4) { 
+				position: relative; bottom: 300px; left: 150px; }
+
 			.conteudo-produtos { 
 				height: 28%; position: relative; right: 200px; 
 				width: 480px; }
-			.carousel-item { position: relative; }
-			.carousel-img { display: block; text-align: center; }
-			.carousel-img:nth-child(1) { position: relative; bottom: 10px; left: 150px; }
-			.carousel-img:nth-child(2) { position: relative; bottom: 100px; left: 150px; }
-			.carousel-img:nth-child(3) { position: relative; bottom: 200px; left: 150px; }
-			.carousel-img:nth-child(4) { position: relative; bottom: 300px; left: 150px; }
-			.angle-left { position: relative; left: 200px; }
-			.angle-right { position: relative; top: 100px; left: 50px; }
-			.btn-loja { position: relative; left: 280px; top: 10px; }
-			.container-btn-loja { position: relative; bottom: 150px; }
 
+			.angle-right { 
+				position: relative; top: 100px; left: 50px; }
 
-		.conteudo-sobre { height: 22%; }	
-			.sobre-titulo, .sobre-img-2 { position: relative; left: 50px; }
-			.sobre-img-wrapper { position: relative; right: 35px; }
-			.sobre-img-1,.sobre-img-2 { display: block; width: 8em; }
-			.sobre-img-1 { left: 40px; }
-			.sobre-img-1 img, .sobre-img-2 img { width: 7.9em; border-radius: 5px; }
+			.btn-loja { 
+				position: relative; left: 280px; top: 10px; }
+
+			.carousel-img { 
+				display: block; text-align: center; }
+
+			.container-btn-loja { 
+				position: relative; bottom: 150px; }
+
+			.angle-left { 
+				position: relative; left: 200px; }
+			
+			.carousel-item { 
+				position: relative; }
+	
+		.conteudo-sobre { height: 22%; }
+
+			sobre-paragrafo-02 { position: relative; top: 300px; padding-bottom: 35px; }
+
+			.sobre-img-1 img, .sobre-img-2 img { width: 7.9em; border-radius: 5px; }	
+
 			.sobre-paragrafo-01, .sobre-paragrafo-02 { border: 1px solid #fff; 
 				border-radius: 5px; width: 8em; }
-			.sobre-paragrafo-02 { position: relative; top: 300px; padding-bottom: 35px; }
-			.sobre-img-1 p, .sobre-img-2 p { position: relative; left: 15px; 
-								text-align: center; }
-			.sobre-img-2 p { border: none; }
+
+			.sobre-titulo, .sobre-img-2 { position: relative; left: 50px; }
+
+			.sobre-img-1,.sobre-img-2 { display: block; width: 8em; }
+
+			.sobre-img-wrapper { position: relative; right: 35px; }
+
+			.sobre-img-1 p, .sobre-img-2 p { position: relative; 
+				left: 15px; text-align: center; }
+
 			.nivia { position: relative; bottom: 53.4em; }
 
+			.sobre-img-2 p { border: none; }
+
+			.sobre-img-1 { left: 40px; }
 
 		.conteudo-cta { height: 27%; position: relative; right: 50px; }
+
 			.cta-titulo { position: relative; left: 70px; font-size: 1.8em;
 						width: 250px; text-align: center; }
+
 			.img-cta img { height: 150px; position: relative; left: 20px; }
+
 			.texto-cta-01 { position: relative; right: 270px; height: 100px; top: 150px;
 						width: 340px; }
+
 			.cta-paragrafo { position: relative; top: 10px; left: 20px; }
 
 			.container-cta-02 { position: relative; left: 10px; }
+
 			.img-cta-02 img { height: 150px; position: relative; right: 240px; top: 100px; }
+			
 			.texto-cta-02 { position: relative; height: 100px; top: 250px; left: 40px;
 						width: 340px; }
+			
 			.cta-paragrafo-02 { position: relative; top: 10px; left: 0px; }
 
 			.img-cta-03 img { height: 150px; position: relative; left: 70px; top: 190px; }
+			
 			.texto-cta-03 { position: relative; right: 180px; height: 100px; top: 340px;
 						width: 340px; }
+			
 			.cta-paragrafo-03 { position: relative; top: 20px; left: 10px; 
 						font-size: 1.2em; } 
 
 			.img-cta-04 img { height: 150px; position: relative; right: 230px; top: 300px; }
+			
 			.texto-cta-04 { position: relative; left: 50px; height: 100px; top: 450px;
 						width: 340px; font-size: 0.8em; }
+			
 			.cta-paragrafo-04 { position: relative; top: 10px; left: 10px; }
+			
 			.container-cta-04 { position: relative; left: 10px; }
+			
 			.btn-cta { position: relative; top: 700px; left: 130px; }
 
 		.depoimentos { height: 23%; }
-			.depoimentos h2 { position: relative; left: 1em; }
-			.depoimento_card_01 { position: relative; right: 5.9em; }
-			.depoimento_card_02 { position: relative; top: 25em; right: 30.5em; }
-			.depoimento_card_03 { position: relative; right: 55.5em; top: 800px; }
 
+			.depoimentos h2 { position: relative; left: 1em; }
+
+			.depoimento_card_01 { position: relative; right: 5.9em; }
+
+			.depoimento_card_02 { position: relative; top: 25em; right: 30.5em; }
+			
+			.depoimento_card_03 { position: relative; right: 55.5em; top: 800px; }
+/*------------------------- Fim conteúdo ----------------------------------*/
 /*--------------------- Rodapé --------------------------------------------*/
-			.rodape { position: relative; right: 2em; }
-			.rodape img { position: relative; top: 150px; left: 3em; }
+		.rodape { position: relative; right: 2em; }
+
 			.copyright { display: block; position: relative; z-index: 11; left: 1em;
 						font-size: 0.7em; top: 15em; left: 9em; }
+
 			.social-media { position: relative; left: 3em; top: 190px; }
+
+			.rodape img { position: relative; top: 150px; left: 3em; }
+
+			
+
+			
 }
 
 
