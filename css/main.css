@@ -184,10 +184,11 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 			
 			.carousel-item { 
 				position: relative; }
-	
+
+		/*--- conteudo Sobre --------*/
 		.conteudo-sobre { height: 22%; }
 
-			sobre-paragrafo-02 { position: relative; top: 300px; padding-bottom: 35px; }
+			.sobre-paragrafo-02 { position: relative; top: 300px; padding-bottom: 35px; }
 
 			.sobre-img-1 img, .sobre-img-2 img { width: 7.9em; border-radius: 5px; }	
 
@@ -208,6 +209,8 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 			.sobre-img-2 p { border: none; }
 
 			.sobre-img-1 { left: 40px; }
+
+		/*--- conteudo CTA ----------*/
 
 		.conteudo-cta { height: 27%; position: relative; right: 50px; }
 
@@ -249,6 +252,8 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 			
 			.btn-cta { position: relative; top: 700px; left: 130px; }
 
+		/*--- conteudo depoimentos -------------*/
+
 		.depoimentos { height: 23%; }
 
 			.depoimentos h2 { position: relative; left: 1em; }
@@ -269,7 +274,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 			.rodape img { position: relative; top: 150px; left: 3em; }
 
-			
+			.rodape-lista { position: relative; left: 3em; }
 
 			
 }
