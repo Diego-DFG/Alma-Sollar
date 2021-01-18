@@ -204,7 +204,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 			.sobre-img-1 p, .sobre-img-2 p { position: relative; 
 				left: 15px; text-align: center; }
 
-			.nivia { position: relative; bottom: 53.4em; }
+			.nivia { position: relative; bottom: 54.3em; }
 
 			.sobre-img-2 p { border: none; }
 
@@ -219,38 +219,46 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 			.img-cta img { height: 150px; position: relative; left: 20px; }
 
-			.texto-cta-01 { position: relative; right: 270px; height: 100px; top: 150px;
-						width: 340px; }
+			.texto-cta-01 { position: relative; right: 270px; height: 100px; 
+				top: 150px; width: 340px; }
 
 			.cta-paragrafo { position: relative; top: 10px; left: 20px; }
 
 			.container-cta-02 { position: relative; left: 10px; }
 
-			.img-cta-02 img { height: 150px; position: relative; right: 240px; top: 100px; }
+			.img-cta-02 img { height: 150px; position: relative; 
+				right: 240px; top: 100px; }
 			
-			.texto-cta-02 { position: relative; height: 100px; top: 250px; left: 40px;
-						width: 340px; }
+			.texto-cta-02 { position: relative; height: 100px; 
+				top: 250px; left: 40px; width: 340px; }
 			
-			.cta-paragrafo-02 { position: relative; top: 10px; left: 0px; }
+			.cta-paragrafo-02 { position: relative; top: 10px; 
+				left: 0px; }
 
-			.img-cta-03 img { height: 150px; position: relative; left: 70px; top: 190px; }
+			.img-cta-03 img { height: 150px; position: relative; 
+				left: 70px; top: 190px; }
 			
-			.texto-cta-03 { position: relative; right: 180px; height: 100px; top: 340px;
-						width: 340px; }
+			.texto-cta-03 { position: relative; right: 180px; 
+				height: 100px; top: 340px; width: 340px; }
 			
-			.cta-paragrafo-03 { position: relative; top: 20px; left: 10px; 
-						font-size: 1.2em; } 
+			.cta-paragrafo-03 { position: relative; top: 20px; 
+				left: 10px; font-size: 1.2em; } 
 
-			.img-cta-04 img { height: 150px; position: relative; right: 230px; top: 300px; }
+			.img-cta-04 img { height: 150px; position: relative; 
+				right: 230px; top: 300px; }
 			
-			.texto-cta-04 { position: relative; left: 50px; height: 100px; top: 450px;
-						width: 340px; font-size: 0.8em; }
+			.texto-cta-04 { position: relative; left: 50px; 
+				height: 100px; top: 450px; width: 340px; 
+				font-size: 0.8em; }
 			
-			.cta-paragrafo-04 { position: relative; top: 10px; left: 10px; }
+			.cta-paragrafo-04 { position: relative; 
+				top: 10px; left: 10px; }
 			
-			.container-cta-04 { position: relative; left: 10px; }
+			.container-cta-04 { position: relative; 
+				left: 10px; }
 			
-			.btn-cta { position: relative; top: 700px; left: 130px; }
+			.btn-cta { position: relative; 
+				top: 700px; left: 130px; }
 
 		/*--- conteudo depoimentos -------------*/
 
@@ -270,11 +278,14 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 			.copyright { display: block; position: relative; z-index: 11; left: 1em;
 						font-size: 0.7em; top: 15em; left: 9em; }
 
-			.social-media { position: relative; left: 3em; top: 190px; }
+			.social-media { position: relative; left: 3em; 
+				top: 190px; }
 
-			.rodape img { position: relative; top: 150px; left: 3em; }
+			.rodape img { position: relative; top: 150px; 
+				left: 3em; }
 
-			.rodape-lista { position: relative; left: 3em; }
+			.rodape-lista { position: relative; 
+				left: 3em; }
 
 			
 }
