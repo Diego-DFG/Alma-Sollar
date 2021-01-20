@@ -143,7 +143,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 			background: url('../img/red/red_alma_11.jpg')no-repeat; }
 		.svg { 
 			top: 230px; height: 120px; }
-		.whatsapp_icon { left: 80%; }
+		.whatsapp_icon { left: 70%; z-index: 100; }
 	/*------------ Fim destaque ----------------------------------------/*
 
 
@@ -199,7 +199,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 			.sobre-img-1, .sobre-img-2 { display: block; width: 8em; }
 
-			.sobre-img-wrapper { position: relative; right: 35px; }
+			.sobre-img-wrapper { position: relative; right: 1em; }
 
 			.sobre-img-1 p, .sobre-img-2 p { position: relative; 
 				left: 15px; text-align: center; }
