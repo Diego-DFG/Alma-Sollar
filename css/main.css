@@ -16,8 +16,9 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 .destaque { grid-area: main; background: url('../img/alma_11.jpeg')no-repeat bottom/cover; }
 	.svg { position: relative; top: 630px; }
-	.whatsapp { color: green; height: 50px; -webkit-backface-visibility: hidden; 
-			position: fixed; left: 90%; top: 85%; z-index: 10 }
+	.whatsapp { color: green; height: 50px; }
+	.whatsapp_icon { height: 50px; position: fixed; left: 90%; top: 85%; z-index: 10; 
+					-webkit-backface-visibility: hidden; }
 
 .conteudo { grid-area: section; }
 	.conteudo-produtos { height: 16.7%; }
@@ -105,7 +106,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 
 
-	@media (max-width: 1000px) {
+	@media (max-width: 1500px) {
 
 	/*----------- estilos gerais ------------------------------------------------*/
 	.wrapper { 
@@ -117,23 +118,23 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 	/*------------ Menu navegação ---------------------------------------*/
 		.navegacao-lista li:nth-child(4), 
-		.navegacao-lista li:nth-child(5) { position: relative; right: 12em; 
-				top: 4em; }
+		.navegacao-lista li:nth-child(5) { position: relative; right: 20em; 
+				top: 2.5em; }
 
 		.navegacao-lista li:nth-child(2), 
 		.navegacao-lista li:nth-child(3) { position: relative; 
-				left: 2em; }
+				right: 4em; }
 
 		.navegacao-lista li:nth-child(1) { position: relative; 
-				left: 1em; }
+				right: 4.5em; }
 
 		.navegacao-lista { position: relative; right: 270px; 
-				font-size: 0.7em; }
+				font-size: 0.8em; }
 
 		.navegacao-lista li { margin-right: 1.5em; }
 
-		.logo img { width: 50px; position: relative; 
-				top: 1px; right: 30px; }
+		.logo img { width: 70px; position: relative; 
+				top: 4em; left: 5em; }
 	/*------------ Fim menu navegação ------------------------------------*/
 
 
@@ -142,8 +143,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 			background: url('../img/red/red_alma_11.jpg')no-repeat; }
 		.svg { 
 			top: 230px; height: 120px; }
-		.whatsapp { 
-			left: 80%; }
+		.whatsapp_icon { left: 80%; }
 	/*------------ Fim destaque ----------------------------------------/*
 
 
