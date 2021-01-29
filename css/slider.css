@@ -1,8 +1,5 @@
-.carousel-item {
-	display: flex;
-	position: relative;
-	left: 100px;
-	width: 90%;
+.gallery {
+	position: relative; top: 5em;
 }
 
 .item_1, .item_2, .item_3 {

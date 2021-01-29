@@ -25,7 +25,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 .conteudo { grid-area: section; }
 	.conteudo-produtos { height: 16.7%; }
-		.btn-loja { position: relative; left: 600px; top: 50px; border: none; border-radius: 30px;
+		.btn-loja { position: relative; left: 600px; top: 200px; border: none; border-radius: 30px;
 					background: tomato; color: #fff; padding: 1em; font-weight: bold; 
 					font-family: 'Lobster', cursive; font-size: 1.3em; }
 		.btn-loja:hover { text-decoration: none; color: tomato; background: #fff; 
@@ -150,6 +150,8 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 
 	/*------------ Conteúdo -----------------------------------------------------*/
+
+	/*
 		.conteudo h1 { 
 			position: relative; top: 100px; left: 10px; font-size: 1.9em; 
 				width: 300px; text-align: center; }
@@ -187,6 +189,14 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 			
 			.carousel-item { 
 				position: relative; }
+
+			*/
+
+			.gallery { position: relative; left: 1em; height: 700px; }
+
+				.item { height: 100%; }
+
+				figure img { display: block; }
 
 		/*--- conteudo Sobre --------*/
 		.conteudo-sobre { height: 22%; }
