@@ -1,0 +1,50 @@
+.carrossel {
+	top: 4em; 
+	background: #fff;
+}
+
+.carousel-item {
+	display: flex;
+	position: relative;
+	left: 100px;
+	width: 90%;
+}
+
+.item_1, .item_2, .item_3 {
+	color: #fff;
+	position: relative;
+	font-size: 1.7em;
+}
+
+.item_1 {
+	right: 490px;
+	bottom: 220px;
+}
+
+.item_2 {
+	right: 120px;
+	bottom: 220px;
+}
+
+.item_3 {
+	left: 270px;
+	bottom: 220px;
+}
+
+.carousel-item img {
+	margin-top: 10em;
+	margin-right: 2em;
+	position: relative;
+	left: 110px;
+}
+
+.carousel-control-prev-icon {
+	position: relative;
+}
+
+.carousel-control-next-icon {
+	position: relative;
+}
+
+.angle-left, .angle-right { color: #000; position: relative; top: 60px; }
+.angle-right { left: 20px; }
