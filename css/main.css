@@ -79,14 +79,20 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 					font-family: 'Lobster', cursive; font-size: 2em; }
 	.btn-cta:hover { color: #fff; }
 
+
+
+/* --------------------------- Seção depoimentos -------------------------------*/
 .depoimentos { height: 19%; background: linear-gradient(rgba(0,0,0,0.5), 
-			rgba(0,0,0,0.5)),url('../img/rodape_00.jpg')no-repeat bottom/cover; color: #fff; }
-	.depoimentos-titulo { z-index: 10; position: relative; top: 80px; left: 550px; color: #fff;
-								font-family: 'Lobster', cursive; font-size: 3em; }
+		rgba(0,0,0,0.5)),url('../img/rodape_00.jpg')no-repeat bottom/cover; color: #fff; }
+
+	.depoimentos-titulo { z-index: 10; position: relative; top: 80px; 
+		left: 550px; color: #fff;font-family: 'Lobster', cursive; font-size: 3em; }
+
 	.card_depoimento { display: flex; position: relative; top: 200px; left: 100px; }
+
 	.card_depoimento img { margin-right: 7em; border-radius: 30px; }
-	.card_depoimento img:hover {  }
-	
+/* ------------------------- Fim da seção depoimentos --------------------------*/
+
 
 
 /*  ------------------------- Rodape -------------------------------------------*/
