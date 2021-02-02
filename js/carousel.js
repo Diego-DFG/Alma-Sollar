@@ -7,9 +7,14 @@ let carouselBtnLeft = $('#carousel-btn-left');
 
 carouselBtn.addEventListener('click', (event) => {
 	event.preventDefault();
-	if() {
+	if(event.path[2].querySelector('.carousel-angle-right')) {
 		carouselItems.scrollBy(300, 0);
-	} else {
+	} 
+});
+
+carouselBtn.addEventListener('click', (event) => {
+	event.preventDefault();
+	if(event.path[2].querySelector('.carousel-angle-left')) {
 		carouselItems.scrollBy(-300, 0);
-	}
+	} 
 });

@@ -35,25 +35,34 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 
 
-
+/* -----------------------------------  Conteudo Sobre -----------------------*/
 	.conteudo-sobre { height: 14.4%; background: linear-gradient(rgba(0,0,0,0.5), 
-			rgba(0,0,0,0.5)),url('../img/sobre_00.jpg')no-repeat center/cover; height: 650px; }
-		.sobre-titulo { z-index: 10; position: relative; top: 100px; left: 290px; color: #fff;
-								font-family: 'Lobster', cursive; font-size: 3em; }
-		.conteudo img { height: 300px; }
+				rgba(0,0,0,0.5)),url('../img/sobre_00.jpg')no-repeat center/cover; 
+				height: 650px; }
+
+		.sobre-img-1 p { font-size: 1em; width: 80%; position: relative; left: 50px; 
+				top: 10px; }
+
+		.sobre-img-1 { display: flex; color: #fff; position: relative; left: 50px; 
+				top: 150px; width: 600px; border: 1px solid #fff; border-radius: 5px; 
+				line-height: 1.4em; height: 300px; }
+
+		.sobre-img-2 { display: flex; color: #fff; position: relative; left: 100px; 
+				top: 150px; width: 600px; border: 1px solid #fff; border-radius: 5px; 
+				line-height: 1.4em; height: 300px;}
+
+		.sobre-titulo { z-index: 10; position: relative; top: 100px; left: 290px; 
+					color: #fff; font-family: 'Lobster', cursive; font-size: 3em; }
+
+		.taynara { border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
+
+		.sobre-img-2 p { font-size: 1em; width: 80%; position: relative; 
+				left: 50px; top: 10px; }		
+
 		.sobre-img-wrapper { display: flex; }
 
-		.sobre-img-1 { display: flex; color: #fff; position: relative; left: 50px; top: 150px; 
-					width: 600px; border: 1px solid #fff; border-radius: 5px; line-height: 1.4em;
-					height: 300px;}
-		.sobre-img-1 p { font-size: 1em; width: 80%; position: relative; left: 50px; top: 10px; }
-			.taynara { border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
-
-		.sobre-img-2 { display: flex; color: #fff; position: relative; left: 100px; top: 150px; 
-					width: 600px; border: 1px solid #fff; border-radius: 5px; line-height: 1.4em;
-					height: 300px;}
-		.sobre-img-2 p { font-size: 1em; width: 80%; position: relative; left: 50px; top: 10px; }
-			.nivia { border-top-right-radius: 5px; border-bottom-right-radius: 5px; }
+		.conteudo img { height: 300px; }
+/* ------------------------------------- Fim conteudo Sobre -------------------*/
 
 
 
