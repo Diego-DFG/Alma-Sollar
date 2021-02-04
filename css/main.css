@@ -281,7 +281,7 @@ body
 	{ height: 100px; width: 100px; top: 30px; }
 
 	.navegacao-itens 
-	{ position: relative; left: 20em; font-size: 1.1em; }
+	{ position: relative; left: 20em; font-size: 1.2em; }
 
 	.navegacao-lista li 
 	{ margin-right: 1.7em; }
@@ -291,9 +291,14 @@ body
 	.navegacao-lista li:nth-child(5) 
 	{ width: 200px; }
 
-	.navegacao-lista li:nth-child(2),
+	.navegacao-lista li:nth-child(2)
+	{ left: 10px; }
+
 	.navegacao-lista li:nth-child(4) 
-	{ left: 1em; }
+	{ right: 400px; top: 70px; }
+
+	.navegacao-lista li:nth-child(5)
+	{ right: 350px; top: 70px; }
 	/* Fim Navegação */
 
 
