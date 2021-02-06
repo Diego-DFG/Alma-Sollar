@@ -1,14 +1,10 @@
-.carrossel {
-	top: 4em; 
-	background: #fff;
-}
+#carouselExampleCaptions 
+{ left: 20px; }
 
-.carousel-item {
+.carousel-item 
+{
 	display: flex;
-	position: relative;
-	left: 100px;
-	width: 90%;
-}
+	width: 90%; }
 
 .item_1, .item_2, .item_3 {
 	color: #fff;
@@ -32,19 +28,26 @@
 }
 
 .carousel-item img {
+	width: 250px;
+	height: 250px;
 	margin-top: 10em;
 	margin-right: 2em;
 	position: relative;
 	left: 110px;
 }
 
-.carousel-control-prev-icon {
-	position: relative;
+.arrow-right, .arrow-left {
+	top: 70px;
 }
 
-.carousel-control-next-icon {
+.arrow-right {
 	position: relative;
+	color: #000;
 }
 
-.angle-left, .angle-right { color: #000; position: relative; top: 60px; }
-.angle-right { left: 20px; }
+.arrow-left {
+	position: relative;
+	right: 20px;
+	color: #000;
+	
+}

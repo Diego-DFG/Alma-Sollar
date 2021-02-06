@@ -54,7 +54,7 @@ a {
 
 
 .destaque { grid-area: main; background: url('../img/alma_11.jpeg')no-repeat bottom/cover; }
-	.svg { position: relative; top: 630px; }
+	.svg { position: relative; top: 530px; }
 	.whatsapp { color: green; height: 50px; }
 	.whatsapp_icon { height: 50px; position: fixed; left: 90%; top: 85%; z-index: 9999; 
 		cursor: pointer; border: 0; text-decoration: none; transition: opacity 0.2s ease-out; 
