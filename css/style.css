@@ -17,24 +17,22 @@
     SKELETON
 -------------------------------------------------------------------*/
 
-body {
-    color: #666666;
-    font-size: 15px;
-    font-family: 'Rubik', sans-serif;
-    line-height: 1.80857;
-}
+body 
+{ color: #666666;
+   font-size: 15px;
+   font-family: 'Rubik', sans-serif;
+   line-height: 1.80857; }
 
 
-a {
-    color: #1f1f1f;
+a 
+{ color: #1f1f1f;
     text-decoration: none !important;
     outline: none !important;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
+    transition: all .3s ease-in-out; }
 
 /* ------------------------------------ Wrapper -----------------------------*/
 .wrapper { height: 5500px; overflow: hidden; display: grid; 
@@ -92,7 +90,7 @@ a {
 		.btn-loja:hover { text-decoration: none; color: tomato; background: #fff; 
 					border: 1px solid tomato; }
 
-		.conteudo-titulo { z-index: 10; position: relative; top: 50px; left: 150px; color: tomato;
+		.conteudo-titulo { z-index: 10; position: relative; top: 50px; left: 210px; color: tomato;
 							font-family: 'Lobster', cursive; font-size: 3em; }
 /* ----------------------------------- Fim Conteúdo ---------------------*/
 
@@ -131,37 +129,80 @@ a {
 /* ------------------------------------ Conteudo cta -----------------------*/
 	.conteudo-cta { height: 50%; }		
 
-		.cta-titulo { position: relative; left: 300px; top: 100px; font-size: 3em; color: tomato;
-					font-family: 'Lobster', cursive; }
-		.container-cta-01, .container-cta-02, .container-cta-03, .container-cta-04 { 
-					display: flex; position: relative; top: 200px; }
-		.img-cta, .img-cta-02, .img-cta-03, .img-cta-04 { z-index: 10; }
-		.container-cta-01 img, .container-cta-02 img, .container-cta-03 img, .container-cta-04 img 
-					{ border-radius: 10px; }
-		.container-cta-01, .container-cta-02, .container-cta-03, .container-cta-04 { position: relative;  
-					margin-bottom: 4em; left: 100px; }
-		.texto-cta-01, .texto-cta-02, .texto-cta-03, .texto-cta-04 {  
-						background: #fff; height: 200px; top: 50px; box-shadow: 10px 10px 10px rgba(0,0,0,0.09); border-radius: 10px;
-						width: 700px; color: tomato; text-align: center; padding: 0 4em; }
-		.texto-cta-01, .texto-cta-03 { position: relative; right: 50px; }
-		.texto-cta-02, .texto-cta-04 { position: relative; left: 50px; }
-		.cta-paragrafo, .cta-paragrafo-02, .cta-paragrafo-03, .cta-paragrafo-04 { 
-					font-size: 1.5em; position: relative; top: 3em; left: 30px; 
-					font-family: 'Roboto', sans-serif; font-weight: bold; }
-		.btn-cta { position: relative; left: 550px; top: 300px; border: none; border-radius: 30px;
-						background: tomato; color: #fff; padding: 1em; font-weight: bold; 
-						font-family: 'Lobster', cursive; font-size: 2em; }
+		.cta-titulo { position: relative; left: 300px; top: 100px; font-size: 3em; 
+			color: tomato; font-family: 'Lobster', cursive; }
+
+		.container-cta-01, 
+		.container-cta-02, 
+		.container-cta-03, 
+		.container-cta-04 
+		{ display: flex; position: relative; top: 200px; }
+
+		.img-cta, 
+		.img-cta-02, 
+		.img-cta-03, 
+		.img-cta-04 
+		{ z-index: 10; }
+
+		.container-cta-01 img, 
+		.container-cta-02 img, 
+		.container-cta-03 img, 
+		.container-cta-04 img 
+		{ border-radius: 10px; }
+
+		.container-cta-01, 
+		.container-cta-02, 
+		.container-cta-03, 
+		.container-cta-04 
+		{ position: relative; margin-bottom: 4em; left: 100px; }
+
+		.texto-cta-01, 
+		.texto-cta-02, 
+		.texto-cta-03, 
+		.texto-cta-04 
+		{  background: #fff; height: 200px; top: 50px; 
+			box-shadow: 10px 10px 10px rgba(0,0,0,0.09); border-radius: 10px;
+			width: 700px; color: tomato; text-align: center; padding: 0 4em; }
+
+		.texto-cta-01, 
+		.texto-cta-03 
+		{ position: relative; right: 50px; }
+
+		.texto-cta-02, 
+		.texto-cta-04 
+		{ position: relative; left: 50px; }
+
+		.cta-paragrafo, 
+		.cta-paragrafo-02, 
+		.cta-paragrafo-03, 
+		.cta-paragrafo-04 
+		{ font-size: 1.5em; position: relative; top: 3em; left: 30px; 
+		font-family: 'Roboto', sans-serif; font-weight: bold; }
+
+		.btn-cta 
+		{ position: relative; left: 550px; top: 300px; border: none; 
+			border-radius: 30px; background: tomato; color: #fff; 
+			padding: 1em; font-weight: bold; font-family: 'Lobster', cursive; 
+			font-size: 2em; }
+
 		.btn-cta:hover { color: #fff; }
 /* ------------------------------------ Fim conteúdo cta ---------------------------*/
 
 
 
 /* ----------------------------------- Depoimentos ---------------------------------*/
-.depoimentos { height: 19%; background: linear-gradient(rgba(0,0,0,0.5), 
-			rgba(0,0,0,0.5)),url('../img/rodape_00.jpg')no-repeat bottom/cover; color: #fff; }
-	.depoimentos-titulo { z-index: 10; position: relative; top: 80px; left: 550px; color: #fff;
-								font-family: 'Lobster', cursive; font-size: 3em; }
-	.card_depoimento { display: flex; position: relative; top: 200px; left: 100px; }
+.depoimentos
+{ height: 19%; background: linear-gradient(rgba(0,0,0,0.5), 
+			rgba(0,0,0,0.5)),url('../img/rodape_00.jpg')no-repeat bottom/cover; 
+			color: #fff; }
+
+	.depoimentos-titulo 
+	{ z-index: 10; position: relative; top: 80px; left: 550px; color: #fff;
+			font-family: 'Lobster', cursive; font-size: 3em; }
+
+	.card_depoimento 
+	{ display: flex; position: relative; top: 200px; left: 100px; }
+
 	.card_depoimento img { margin-right: 4em; border-radius: 30px; }
 /* ---------------------------------- Fim depoimentos -------------------------------*/
 
@@ -169,20 +210,49 @@ a {
 
 
 /* ---------------------------------- Rodapé ----------------------------------------*/
-.rodape { grid-area: footer; font-family: 'Roboto', sans-serif; background: #654062; 
+.rodape 
+{ grid-area: footer; font-family: 'Roboto', sans-serif; background: #654062; 
 			border-top: 3px solid #fff; }
-	.rodape-lista { position: relative; top: 50px; list-style: none; color: #fff; }
-	.rodape-lista li { margin-bottom: 1em; }
-	.rodape-lista li a, .sedex, .endereco, .ads { color: #fff; }
-	.rodape-lista li:nth-child(3) { padding-top: 1em; }
-	.rodape-lista li:nth-child(4) {   }
-	.primeiro-item, .contato { font-size: 1.2em; font-weight: 800; color: #fff; text-decoration: none; }
-	.envelope, .phone, .email { color: tomato; margin-left: 1em; }
-	.rodape img { position: relative; left: 500px; bottom: 200px; border-radius: 50%; }
-	.copyright { position: relative; left: 315px; bottom: 50px; color: #fff; }
-	.social-media { position: relative; left: 89.5%; bottom: 450px; }
+
+	.rodape-lista 
+	{ position: relative; top: 50px; list-style: none; color: #fff; }
+
+	.rodape-lista li 
+	{ margin-bottom: 1em; }
+
+	.rodape-lista li a, 
+	.sedex, 
+	.endereco, 
+	.ads 
+	{ color: #fff; }
+
+	.rodape-lista li:nth-child(3) 
+	{ padding-top: 1em; }
+
+	.primeiro-item, 
+	.contato 
+	{ font-size: 1.2em; font-weight: 800; color: #fff; 
+		text-decoration: none; }
+
+	.envelope, 
+	.phone, 
+	.email 
+	{ color: tomato; margin-left: 1em; }
+
+	.rodape img 
+	{ position: relative; left: 500px; bottom: 200px; border-radius: 50%; }
+
+	.copyright 
+	{ position: relative; left: 315px; bottom: 50px; color: #fff; }
+
+	.social-media 
+	{ position: relative; left: 89.5%; bottom: 450px; }
+
 	.instagram { color: #fff; }
-	.ads { position: relative; top: 50px; }
+
+	.ads 
+	{ position: relative; top: 50px; }
+
 	.ads:hover { text-decoration: underline; }
 /* ----------------------------------- Fim rodapé ------------------------------*/
 
@@ -200,7 +270,7 @@ a {
 
 
 /*--------------------------------  MEDIA QUERIE ----------------------------------*/
-	@media (max-width: 1000px) {
+	@media (max-width: 500px) {
 
 	/*----------- estilos gerais ------------------------------------------------*/
 	.wrapper { 
@@ -211,22 +281,24 @@ a {
 
 	/*------------ Menu navegação ---------------------------------------*/
 		.navegacao-lista li:nth-child(4), 
-		.navegacao-lista li:nth-child(5) { position: relative; right: 1em; }
+		.navegacao-lista li:nth-child(5) 
+		{ position: relative; right: 21em; top: 2em; }
 
 		.navegacao-lista li:nth-child(2), 
-		.navegacao-lista li:nth-child(3) { position: relative; 
-				right: 2em; }
+		.navegacao-lista li:nth-child(3) 
+		{ position: relative; left: 3em; margin-right: 5em; }
 
-		.navegacao-lista li:nth-child(1) { position: relative; 
-				right: 4.5em; }
+		.navegacao-lista li:nth-child(1) 
+		{ position: relative; left: 1em; }
 
-		.navegacao-lista { position: relative; right: 270px; 
-				font-size: 0.8em; }
+		.navegacao-lista 
+		{ position: relative; right: 270px; font-size: 0.8em; }
 
-		.navegacao-lista li { margin-right: 1.5em; }
+		.navegacao-lista li 
+		{ margin-right: 1.5em; bottom: 1em; }
 
-		.logo img { width: 70px; position: relative; 
-				top: 3em; left: 10em; }
+		.logo img 
+		{ width: 70px; position: relative; top: 4em; left: 6em; }
 	/*------------ Fim menu navegação ------------------------------------*/
 
 
@@ -241,7 +313,7 @@ a {
 
 	/*------------ Conteúdo -----------------------------------------------------*/
 		.conteudo h1 { 
-			position: relative; top: 100px; left: 70px; font-size: 1.9em; 
+			position: relative; top: 100px; left: 30px; font-size: 1.9em; 
 				width: 300px; text-align: center; }
 
 			#carouselExampleCaptions
@@ -260,14 +332,17 @@ a {
 			{ position: relative; bottom: 300px; left: 150px; }
 
 			.conteudo-produtos 
-			{ height: 28%; position: relative; right: 250px; 
-			width: 560px; }
+			{ height: 28%; position: relative; right: 420px; 
+			width: 700px; }
 
 			.btn-loja 
-			{ position: relative; left: 400px; top: 230px; }
+			{ position: relative; left: 510px; top: 230px; }
 
 			.carousel-item 
-			{ position: relative; left: 200px; }
+			{ position: relative; left: 250px; width: 100%; }
+
+			.carousel-item img 
+			{ display: block; }
 
 			.container-btn-loja 
 			{ position: relative; bottom: 150px; }
@@ -282,17 +357,17 @@ a {
 		.conteudo-sobre { height: 22%; }
 
 				/* Sobre img 1 */
-			.sobre-img-1 img { height: 400px; width: 300px; border-radius: 5px; }	
+			.sobre-img-1 img { height: 350px; width: 250px; border-radius: 5px; }	
 
 			.sobre-paragrafo-01 { border: 1px solid #fff; 
-				border-radius: 5px; width: 300px; }
+				border-radius: 5px; width: 250px; }
 
-			.sobre-titulo { position: relative; left: 130px; }
+			.sobre-titulo { position: relative; left: 80px; }
 
-			.sobre-img-1 { display: block; height: 402px; width: 302px;}
+			.sobre-img-1 { display: block; height: 352px; width: 252px;}
 
 			.sobre-img-wrapper 
-			{ position: relative; left: 50px; top: 200px; }
+			{ position: relative; left: 10px; top: 200px; }
 
 			.sobre-img-1 p { position: relative; 
 				left: 30px; }
@@ -305,12 +380,12 @@ a {
 
 		.conteudo-cta { height: 27%; position: relative; right: 50px; }
 
-			.cta-titulo { position: relative; left: 160px; font-size: 1.8em;
+			.cta-titulo { position: relative; left: 100px; font-size: 1.8em;
 						width: 250px; text-align: center; }
 
-			.img-cta img { height: 150px; position: relative; left: 80px; }
+			.img-cta img { height: 150px; position: relative; left: 30px; }
 
-			.texto-cta-01 { position: relative; right: 200px; height: 100px; 
+			.texto-cta-01 { position: relative; right: 270px; height: 100px; 
 				top: 150px; width: 340px; }
 
 			.cta-paragrafo { position: relative; top: 10px; left: 20px; }
@@ -318,27 +393,27 @@ a {
 			.container-cta-02 { position: relative; left: 10px; }
 
 			.img-cta-02 img { height: 150px; position: relative; 
-				right: 170px; top: 100px; }
+				right: 230px; top: 100px; }
 			
 			.texto-cta-02 { position: relative; height: 100px; 
-				top: 250px; left: 120px; width: 340px; }
+				top: 250px; left: 50px; width: 340px; }
 			
 			.cta-paragrafo-02 { position: relative; top: 10px; 
 				left: 0px; }
 
 			.img-cta-03 img { height: 150px; position: relative; 
-				left: 130px; top: 190px; }
+				left: 80px; top: 190px; }
 			
-			.texto-cta-03 { position: relative; right: 100px; 
+			.texto-cta-03 { position: relative; right: 180px; 
 				height: 100px; top: 340px; width: 340px; }
 			
 			.cta-paragrafo-03 { position: relative; top: 20px; 
 				left: 10px; font-size: 1.2em; } 
 
 			.img-cta-04 img { height: 150px; position: relative; 
-				right: 160px; top: 300px; }
+				right: 220px; top: 300px; }
 			
-			.texto-cta-04 { position: relative; left: 120px; 
+			.texto-cta-04 { position: relative; left: 50px; 
 				height: 100px; top: 450px; width: 340px; 
 				font-size: 0.8em; }
 			
@@ -349,34 +424,34 @@ a {
 				left: 10px; }
 			
 			.btn-cta { position: relative; 
-				top: 700px; left: 210px; }
+				top: 700px; left: 135px; }
 
 		/*--- conteudo depoimentos -------------*/
 
 		.depoimentos { height: 23%; }
 
-			.depoimentos h2 { position: relative; left: 120px; }
+			.depoimentos h2 { position: relative; left: 70px; }
 
-			.depoimento_card_01 { position: relative; right: 20px; }
+			.depoimento_card_01 { position: relative; right: 85px; }
 
-			.depoimento_card_02 { position: relative; top: 25em; right: 370px; }
+			.depoimento_card_02 { position: relative; top: 25em; right: 430px; }
 			
-			.depoimento_card_03 { position: relative; right: 720px; top: 800px; }
+			.depoimento_card_03 { position: relative; right: 785px; top: 800px; }
 /*------------------------- Fim conteúdo ----------------------------------*/
 /*--------------------- Rodapé --------------------------------------------*/
 		.rodape { position: relative; right: 2em; }
 
 			.copyright { display: block; position: relative; z-index: 11; left: 1em;
-						font-size: 0.7em; top: 15em; left: 230px; }
+						font-size: 0.7em; top: 15em; left: 150px; }
 
 			.social-media { position: relative; left: 3em; 
 				top: 190px; }
 
 			.rodape img { position: relative; top: 150px; 
-				left: 160px; }
+				left: 80px; }
 
 			.rodape-lista { position: relative; 
-				left: 3em; }
+				left: 2em; }
 
 			
 }
