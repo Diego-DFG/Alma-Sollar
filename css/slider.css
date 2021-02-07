@@ -1,53 +1,30 @@
 #carouselExampleCaptions 
-{ left: 20px; }
+{ right: 50px; }
 
 .carousel-item 
-{
-	display: flex;
-	width: 90%; }
+{ display: flex; width: 90%; }
 
-.item_1, .item_2, .item_3 {
-	color: #fff;
-	position: relative;
-	font-size: 1.7em;
-}
+.item_1 
+{ right: 490px; bottom: 220px; }
 
-.item_1 {
-	right: 490px;
-	bottom: 220px;
-}
+.item_2 
+{ right: 120px; bottom: 220px; }
 
-.item_2 {
-	right: 120px;
-	bottom: 220px;
-}
+.item_3 
+{ left: 270px; bottom: 220px; }
 
-.item_3 {
-	left: 270px;
-	bottom: 220px;
-}
+.item_1, .item_2, .item_3 
+{ color: #fff; position: relative; font-size: 1.7em; }
 
-.carousel-item img {
-	width: 250px;
-	height: 250px;
-	margin-top: 10em;
-	margin-right: 2em;
-	position: relative;
-	left: 110px;
-}
+.carousel-item img 
+{ width: 250px; height: 250px; margin-top: 10em; margin-right: 2em; position: relative; 
+left: 110px; }
 
-.arrow-right, .arrow-left {
-	top: 70px;
-}
+.angle-right 
+{ position: relative; left: 120px; color: #000; }
 
-.arrow-right {
-	position: relative;
-	color: #000;
-}
+.angle-left 
+{ position: relative; right: 20px; color: #000; }
 
-.arrow-left {
-	position: relative;
-	right: 20px;
-	color: #000;
-	
-}
+.angle-right, .angle-left 
+{ top: 70px; }
