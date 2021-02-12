@@ -1,0 +1,13 @@
+.conteudo { grid-area: section; }
+
+	.conteudo-produtos { height: 16.7%; background-color: #fff; }
+
+		.btn-loja { position: relative; left: 600px; top: 200px; border: none; border-radius: 30px;
+					background: tomato; color: #fff; padding: 1em; font-weight: bold; 
+					font-family: 'Lobster', cursive; font-size: 1.3em; }
+		
+		.btn-loja:hover { text-decoration: none; color: tomato; background: #fff; 
+					border: 1px solid tomato; }
+
+		.conteudo-titulo { z-index: 10; position: relative; top: 50px; left: 210px; color: tomato;
+							font-family: 'Lobster', cursive; font-size: 3em; }

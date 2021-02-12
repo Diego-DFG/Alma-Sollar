@@ -1,0 +1,4 @@
+.wrapper { height: 5500px; overflow: hidden; display: grid; 
+			grid-template-areas: 'nav' 'main' 'section' 'footer'; 
+			grid-template-rows: 2% 14% 77% 10%; position:relative;
+			min-height: 100%; }

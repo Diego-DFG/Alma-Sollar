@@ -1,0 +1,44 @@
+.rodape 
+{ grid-area: footer; font-family: 'Roboto', sans-serif; background: #654062; 
+			border-top: 3px solid #fff; }
+
+	.rodape-lista 
+	{ position: relative; top: 50px; list-style: none; color: #fff; }
+
+	.rodape-lista li 
+	{ margin-bottom: 1em; }
+
+	.rodape-lista li a, 
+	.sedex, 
+	.endereco, 
+	.ads 
+	{ color: #fff; }
+
+	.rodape-lista li:nth-child(3) 
+	{ padding-top: 1em; }
+
+	.primeiro-item, 
+	.contato 
+	{ font-size: 1.2em; font-weight: 800; color: #fff; 
+		text-decoration: none; }
+
+	.envelope, 
+	.phone, 
+	.email 
+	{ color: tomato; margin-left: 1em; }
+
+	.rodape img 
+	{ position: relative; left: 500px; bottom: 200px; border-radius: 50%; }
+
+	.copyright 
+	{ position: relative; left: 315px; bottom: 50px; color: #fff; }
+
+	.social-media 
+	{ position: relative; left: 89.5%; bottom: 450px; }
+
+	.instagram { color: #fff; }
+
+	.ads 
+	{ position: relative; top: 50px; }
+
+	.ads:hover { text-decoration: underline; }

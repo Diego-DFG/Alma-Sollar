@@ -1,0 +1,15 @@
+.navegacao { grid-area: nav; display: flex; font-family: 'Roboto', sans-serif; }
+
+	.logo { margin-left: 2em; position: relative; top: 20px; }
+
+	.logo a { color: #ffba93; }	
+
+	.logo img { position: relative; bottom: 40px; }
+
+	.navegacao-lista { display: flex; margin-left: 10em; position: relative; top: 2em;}
+
+	.navegacao-lista li { margin-right: 5em; list-style: none; }
+
+	.navegacao-lista li a { text-decoration: none; color: #ffba93; }
+
+	.navegacao-lista li a:hover { color: #ff8e71; }
