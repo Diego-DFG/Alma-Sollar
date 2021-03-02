@@ -1,0 +1,4 @@
+#up_page
+{ position: fixed; background: tomato; width: 52px; height: 40px; bottom: 200px;
+border-radius: 3px; right: 40px; color: white; font-size: 23px; text-align: center;
+z-index: 999; cursor: pointer; }

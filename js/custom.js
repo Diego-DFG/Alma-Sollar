@@ -16,13 +16,19 @@
     ................................................. */
 	
 	$(document).ready(function(){ 
-		$(window).on('scroll', function () {
+		$(window).on('scroll', function() {
 			if ($(this).scrollTop() > 100) { 
-				$('#back-to-top').fadeIn(); 
+				$('#back-to-top').fadeIn();
+				$('#up_page').fadeIn(); 
 			} else { 
-				$('#back-to-top').fadeOut(); 
+				$('#back-to-top').fadeOut();
+				$('#up_page').fadeOut(); 
 			} 
 		}); 
+
+		$('#up_page').on('click', function() {
+			$('html, body').animate({scrollTop: 0}, 600);
+		});
 	});
 	
 }(jQuery));
