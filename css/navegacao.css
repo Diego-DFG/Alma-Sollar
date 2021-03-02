@@ -1,15 +1,31 @@
-.navegacao { grid-area: nav; display: flex; font-family: 'Roboto', sans-serif; }
+.navegacao 
+{ background: #fff; height: 80px; width: 100%; position: fixed; z-index: 9999; }
 
-	.logo { margin-left: 2em; position: relative; top: 20px; }
+			#check
+			{ display: none; }
 
-	.logo a { color: #ffba93; }	
+			nav { background: #0082e6; height: 80px; width: 100%; }
 
-	.logo img { position: relative; bottom: 40px; }
+			label.logo{ color: white; font-size: 34px; line-height: 80px; 
+			        padding: 0 100px; font-weight: bold; }
 
-	.navegacao-lista { display: flex; margin-left: 10em; position: relative; top: 2em;}
+			nav ul { float: right; margin-right: 20px; }
 
-	.navegacao-lista li { margin-right: 5em; list-style: none; }
+			nav ul li { display: inline-block; line-height: 80px; margin: 0 5px; }
 
-	.navegacao-lista li a { text-decoration: none; color: #ffba93; }
+			nav ul li a:hover { text-decoration: none; color: white; }
 
-	.navegacao-lista li a:hover { color: #ff8e71; }
+			nav ul li a { color: tomato; font-size: 17px; padding: 7px 13px; 
+			        border-radius: 3px; text-transform: uppercase; }
+
+			 nav ul li:target
+			 { display: block; position: relative; top: -150px; visibility: hidden; }
+
+			a.ativo, .link:hover { background: tomato; transition: .5s; }
+
+			a.ativo { color: white; cursor: pointer; }
+
+			.checkbtn { font-size: 30px; color: #222; float: right; 
+			line-height: 80px; margin-right: 40px; cursor: pointer; display: none; }
+
+			#check { display: none; }

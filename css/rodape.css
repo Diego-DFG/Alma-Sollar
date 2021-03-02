@@ -1,6 +1,6 @@
 .rodape 
 { grid-area: footer; font-family: 'Roboto', sans-serif; background: #654062; 
-			border-top: 3px solid #fff; }
+border-top: 3px solid #fff; }
 
 	.rodape-lista 
 	{ position: relative; top: 50px; list-style: none; color: #fff; }

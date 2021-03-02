@@ -58,28 +58,24 @@
 	<body>
 		<div class="wrapper">
 					<nav class="navegacao">
-						<div class="logo">
-							<img src="./img/alma_logo_red.jpg">
-						</div>
-						<div class="navegacao-itens">
-							<ul class="navegacao-lista">
-								<li>
-									<a href="#wrapper">Home</a>
-								</li>
-								<li>
-									<a href="#conteudo-sobre">Quem somos</a>
-								</li>
-								<li>
-									<a href="#conteudo-produtos">Nossos Produtos</a>
-								</li>
-								<li>
-									<a href="#conteudo-cta">Vantagens</a>
-								</li>
-								<li>
-									<a href="#rodape">Fale Conosco</a>
-								</li>
-							</ul>
-						</div>
+						<input type="checkbox" id="check" />
+						<label for="check" class="checkbtn">
+							<i class="fas fa-bars"></i>
+						</label>
+						<label class="logo">
+							<img class="logo-navegacao" src="./img/alma_logo_red.jpg"></img>
+						</label>
+						<ul data-aos="fade-in" data-aos-delay="100" class="navegacao-itens-lista">
+							<li class="nav-item-documentacao">
+								<a href="#conteudo-sobre" class="ativo scrollSmooth">Quem somos</a>
+							</li>
+							<li class="nav-item-servicos">
+								<a href="#conteudo-produtos" class="link servicos scrollSmooth">Nossos Produtos</a>
+							</li>
+							<li class="nav-item-rodape">
+								<a href="#rodape" class="link scrollSmooth">Fale Conosco</a>
+							</li>
+						</ul>
 					</nav>
 					<div class="destaque">
 						<img src="./img/img.svg" class="svg">
@@ -208,7 +204,7 @@
 								<span class="contato">Contato</span>
 							</li>
 							<li>
-								<a href="https://api.whatsapp.com/send?1=pt_BR&phone=5521976304758/&text=Olá!%20Gostaria%20de%20algumas%20informações" class="active">Contato: (21) 97233-6376</a><i class="phone fas fa-phone-square"></i>
+								<a href="https://api.whatsapp.com/send?1=pt_BR&phone=5521976304758/&text=Olá!%20Gostaria%20de%20algumas%20informações" >Contato: (21) 97233-6376</a><i class="phone fas fa-phone-square"></i>
 							</li>
 							<li>
 								<span class="endereco">Email: contatoalmasollar@gmail.com</span><i class="email fas fa-at"></i>
